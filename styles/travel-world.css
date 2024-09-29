@@ -1,25 +1,62 @@
 /* fonts from google fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* common styles for all  */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Mulish", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
-body{
-    width: 80%;
-    max-width: 1170px;
-    margin: 0 auto;
+body {
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.common-p-not-center {
+  text-align: left;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.common-p-center {
+  text-align: center;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* header section styles  */
 
 /* nav section styles  */
-nav{
-    display: flex;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
 }
-.nav-logo img{
-    width: 100px;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+}
+.nav-logo {
+  width: 30%;
+}
+.nav-logo img {
+  width: 100%;
+}
+nav span {
+  color: #ff5400;
+}
+.nav-menu{
+    width: 8%;
+}
+.nav-menu img{
+    width: 100%;
 }

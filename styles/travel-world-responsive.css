@@ -1,0 +1,27 @@
+/* for big secreen responsive  */
+@media screen and (min-width:1080px) {
+    .nav-menu{
+        display: none;
+    }
+}
+
+/* for medium screen responsive  */
+@media screen and (min-width:576px) and (max-width:1079px){
+    body {
+        width: 90%;
+      
+      }
+    .nav-menu{
+        display: none;
+    }
+}
+@media screen and (max-width:575px) {
+    body {
+        width: 90%;
+      
+      }
+      
+    .nav-links{
+        display: none;
+    }
+}
