@@ -85,6 +85,7 @@ nav span {
     justify-content:  center;
     gap:50px;
     margin-top: 50px;
+    border-radius: 16px;
 }
 .banner-text{
     width: 670px;

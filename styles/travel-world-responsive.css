@@ -1,27 +1,51 @@
 /* for big secreen responsive  */
-@media screen and (min-width:1080px) {
-    .nav-menu{
-        display: none;
-    }
+@media screen and (min-width: 1080px) {
+  .nav-menu {
+    display: none;
+  }
 }
 
 /* for medium screen responsive  */
-@media screen and (min-width:576px) and (max-width:1079px){
-    body {
-        width: 90%;
-      
-      }
-    .nav-menu{
-        display: none;
-    }
+@media screen and (min-width: 576px) and (max-width: 1079px) {
+  body {
+    width: 90%;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
 }
-@media screen and (max-width:575px) {
-    body {
-        width: 90%;
-      
-      }
-      
-    .nav-links{
-        display: none;
-    }
+@media screen and (max-width: 575px) {
+  body {
+    width: 90%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .banner-text {
+    width: 80%;
+  }
+  .banner-title {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+  .banner {
+    gap: 20px;
+  }
+  .banner-menu {
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .wws {
+    width: 90%;
+  }
+  .search {
+    width: 90%;
+  }
 }
