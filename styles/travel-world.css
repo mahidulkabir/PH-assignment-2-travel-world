@@ -38,6 +38,11 @@ border-radius:8px;
 border: none;
 cursor: pointer;
 }
+.common-section-title{
+  color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
 
 /* header section styles  */
 
@@ -138,4 +143,25 @@ text-align: center;
 
 /* popular tours section styles starts  */
 
+.tours{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  min-width: 432px;
+  line-height: 32px;
+}
+.tours-txt{
+  width: 50%;
+  border: 1px solid;
+}
+.tours-photo img{
+width: 100%;
+object-fit: cover;
 
+}
+.tours ul{
+ margin-left: 16px;
+}
+.tours-descrip{
+margin: 25px 0;
+}
