@@ -10,7 +10,7 @@
 }
 body {
   width: 80%;
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 .common-p-not-center {
@@ -27,6 +27,17 @@ body {
   font-style: normal;
   font-weight: 400;
 }
+.common-button{
+background-color: #ff5400;
+padding: 15px 35px;
+color: #FFF;
+font-size: 1rem;
+font-weight: 800;
+gap:5px;
+border-radius:8px;
+border: none;
+cursor: pointer;
+}
 
 /* header section styles  */
 
@@ -35,21 +46,23 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid;
 }
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
+  cursor: pointer;
 }
 nav a {
   text-decoration: none;
+  
 }
 .nav-logo {
   width: 30%;
 }
 .nav-logo img {
   width: 100%;
+  cursor: pointer;
 }
 nav span {
   color: #ff5400;
@@ -60,3 +73,64 @@ nav span {
 .nav-menu img{
     width: 100%;
 }
+/* banner section styles  */
+
+.banner{
+    min-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),url(../Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    gap:50px;
+    margin-top: 50px;
+}
+.banner-text{
+    width: 670px;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+text-align: center;
+}
+.banner-paragraph{
+    color: #FFF;
+    margin-top: 25px;
+}
+.banner-menu{
+  width: 800px;
+   margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(255, 255, 255, 0.233),rgba(255, 255, 255, 0.363));
+  padding: 16px;
+  border-radius: 8px;
+
+}
+.wws{
+  background: #fff;
+  display: flex;
+  width: 175px;
+  padding: 15px;
+  color: rgba(19, 19, 24, 0.50);
+  justify-content: space-between;
+  align-items: center;
+  border-radius:8px;
+  gap: 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.wws img{
+  width: 20px;
+}
+.search{
+  display: flex;
+  width: 175px;
+  justify-content: space-between;
+  align-items: center;
+}
+
