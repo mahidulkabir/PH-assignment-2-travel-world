@@ -48,4 +48,21 @@
   .search {
     width: 90%;
   }
+  .tours{
+    flex-direction: column;
+    padding: 0 10px;
+    gap:50px;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .tours-txt{
+    width: 100%;
+  }
+  .tours-photo img{
+    width: 100%;
+
+  }
+  .tour-title{
+    font-size:2rem ;
+  }
 }
