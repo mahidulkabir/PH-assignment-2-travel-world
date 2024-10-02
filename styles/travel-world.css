@@ -187,6 +187,8 @@ margin: 25px 0;
   font-size: 2rem;
   font-weight: 800;
   cursor: pointer;
+  margin-top: 134px;
+  
 }
 
 .destination1{
@@ -196,7 +198,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 130px 225px;
   border-radius: 8px;
 }
 .destination2{
@@ -206,7 +207,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 130px 220px;
   border-radius: 8px;
 }
 .destination3{
@@ -216,7 +216,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  padding: 125px 130px;
   border-radius: 8px;
 }
 .destination4{
@@ -226,7 +225,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-   padding: 125px 135px;
    border-radius: 8px;
 }
 .destination5{
@@ -236,7 +234,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 125px 80px;
   border-radius: 8px;
 }
 .destination6{
@@ -246,7 +243,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 130px 150px;
   border-radius: 8px;
 }
 
@@ -257,6 +253,6 @@ margin: 25px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  padding: 130px 260px;
+  height: 300px;
   border-radius: 8px;}
   
