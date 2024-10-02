@@ -81,8 +81,8 @@ nav span {
 
 .banner {
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
-    url(../Images/Group\13\\(1\)\\(1\).png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),url(../Images/Group\ 13\ .png);
+
   background-position:center;
   background-size:cover;
   display:flex;

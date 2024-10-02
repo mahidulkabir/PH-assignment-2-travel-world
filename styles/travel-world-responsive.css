@@ -98,9 +98,8 @@
   .destination3 {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
-    padding: 0
-
-    border-radius: 8px;
+    padding: 0;
+border-radius:8px;
   }
   .destination4 {
     grid-column: 1 / span 1;
@@ -120,19 +119,30 @@
     grid-column: 1 / span 1;
     grid-row: 6 / span 1;
     padding: 0;
-
-        border-radius: 8px;
+   border-radius: 8px;
   }
 
   .destination7 {
     grid-column: 1 / span 1;
     grid-row: 7 / span 1;
     padding: 0;
-
-        border-radius: 8px;
+    border-radius: 8px;
   }
   .choice-txt {
     width: 90%;
     margin: 0;
   }
+  .choice-cards-containe-fr-2 {
+    flex-direction: column;
+    justify-content:baseline;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  
+  .choice-card1 , .choice-card2, .choice-card3 {
+   
+    width: 100%;
+  }
+    
 }
