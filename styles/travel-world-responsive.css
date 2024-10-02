@@ -85,8 +85,6 @@
   .destination1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    /* height: 200px; */
-    /* padding: 70px 120px; */
     padding: 0;
     border-radius: 8px;
   }
@@ -95,21 +93,18 @@
     grid-row: 2 / span 1;
     padding: 0;
 
-    /* padding: 70px 120px; */
     border-radius: 8px;
   }
   .destination3 {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
-    /* padding: 70px 120px; */
-    padding: 0;
+    padding: 0
 
     border-radius: 8px;
   }
   .destination4 {
     grid-column: 1 / span 1;
     grid-row: 4 / span 1;
-    /* padding: 70px 120px; */
     padding: 0;
 
     border-radius: 8px;
@@ -119,7 +114,6 @@
     grid-row: 5 / span 1;
     padding: 0;
 
-    /* padding: 70px 120px; */
         border-radius: 8px;
   }
   .destination6 {
@@ -127,16 +121,18 @@
     grid-row: 6 / span 1;
     padding: 0;
 
-    /* padding: 70px 120px; */
         border-radius: 8px;
   }
 
   .destination7 {
     grid-column: 1 / span 1;
     grid-row: 7 / span 1;
-    /* padding: 70px 120px; */
     padding: 0;
 
         border-radius: 8px;
+  }
+  .choice-txt {
+    width: 90%;
+    margin: 0;
   }
 }
