@@ -300,4 +300,60 @@ nav span {
   font-size: 24px;
   font-weight: 800;
 }
+/* choice section ended  */
+/* Discounts section starts here  */
+.discounts-txt {
+  width: 45%;
+  margin: 0 auto;
+}
+.discounts-txt h2{
+  text-align:center;
+}
+.discouonts-cards{
+  position: relative;
+  
+  
 
+}
+.discouonts-cards img{
+  width: 100%;
+  margin: 20px auto;
+}
+.dicounts-information-container{
+  border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: absolute;
+top: 150px;
+left: 600px;
+width: 50%;
+padding: 50px 70px 50px 50px;
+/* display: flex;
+flex-direction: column;
+gap: 20px; */
+}
+.discounts-schedule-container,.discounts-capacity,.discounts-schedule,.discounts-location{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 5px;
+}
+.discounts-schedule-title{
+  color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin: 20px 0;
+}
+.discounts-price{
+  color: #FF5400;
+font-size: 1.25rem;
+font-weight: 800;
+margin: 20px 0;
+}
+#discount-left-txt{
+  position: absolute;
+  top:150px;
+  left: 130px;
+
+}
