@@ -29,6 +29,9 @@
     width: 100%;
   }
 }
+
+/* for small devices  */
+
 @media screen and (max-width: 575px) {
   body {
     width: 90%;
@@ -172,6 +175,13 @@ border-radius:8px;
   left: 40px;
   width: 50%;
   padding: 10px;
+
+  /*  */
+  /* top:10%;
+ left: 40%;
+width: 55%;
+height: 350px;
+padding: 50px ; */
   
   }
   .discounts-schedule-container,.discounts-capacity,.discounts-schedule,.discounts-location{
@@ -194,13 +204,25 @@ border-radius:8px;
   }
   #discount-left-txt{
     position: absolute;
-    top:100px;
+    top: 100px;
     left: 40px;
-    min-width: 300px;
-  
+    width: 50%;
+    padding: 10px;
   }
   .dont-show{
     display: none;
   }
-    
+  .perfect{
+    flex-direction: column;
+    margin: 5px;
+  }
+  .perfect-txt{
+    width: 100%;
+  }
+  .perfect-vdo{
+    width: 100%;
+  }
+  #video{
+    position: relative;
+  }
 }

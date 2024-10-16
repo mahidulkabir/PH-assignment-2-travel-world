@@ -310,13 +310,12 @@ nav span {
   text-align:center;
 }
 .discouonts-cards{
-  position: relative;
   
-  
-
+  position: relative; 
 }
 .discouonts-cards img{
   width: 100%;
+  
   /* height:max-content; */
   margin: 20px auto;
 }
@@ -326,12 +325,11 @@ border: 2px solid #FFF;
 background: rgba(255, 255, 255, 0.80);
 backdrop-filter: blur(2.5px);
 position: absolute;
-top:15%;
-  left: 50%;
-width: 580px;
-height: 380px;
-padding: 50px 70px 50px 50px;
-margin: auto auto;
+top:10%;
+ left: 40%;
+width: 55%;
+height: 350px;
+padding: 50px ;
 
 }
 .discounts-schedule-container,.discounts-capacity,.discounts-schedule,.discounts-location{
@@ -354,8 +352,11 @@ margin: 20px 0;
 }
 #discount-left-txt{
   position: absolute;
-  top:100px;
-  left: 130px;
+  top:10%;
+  left: 10%;
+width: 55%;
+height: 350px;
+padding: 50px ;
 }
 
 /* perfect section starts here  */
@@ -397,6 +398,8 @@ margin: 25px 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid;
 }
 .perfect-button{
   margin-top: 50px;
