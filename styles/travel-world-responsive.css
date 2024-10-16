@@ -144,5 +144,63 @@ border-radius:8px;
    
     width: 100%;
   }
+  /* discount section from here  */
+  .discounts-txt {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .discounts-txt h2{
+    text-align:center;
+  }
+  .discouonts-cards{
+    position: relative;
+  }
+  .discouonts-cards img{
+    width: 100%;
+    height: 500px;
+    margin: 20px auto;
+    object-fit: cover;
+  }
+  .dicounts-information-container{
+    border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  position: absolute;
+  min-width: 300px;
+  top: 100px;
+  left: 40px;
+  width: 50%;
+  padding: 10px;
+  
+  }
+  .discounts-schedule-container,.discounts-capacity,.discounts-schedule,.discounts-location{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  }
+  .discounts-schedule-title{
+    color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 20px 0;
+  }
+  .discounts-price{
+    color: #FF5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 20px 0;
+  }
+  #discount-left-txt{
+    position: absolute;
+    top:100px;
+    left: 40px;
+    min-width: 300px;
+  
+  }
+  .dont-show{
+    display: none;
+  }
     
 }
