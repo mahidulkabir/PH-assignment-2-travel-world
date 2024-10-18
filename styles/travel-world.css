@@ -81,14 +81,15 @@ nav span {
 
 .banner {
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),url(../Images/Group\ 13\ .png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)),
+    url(../Images/Group\ 13\ .png);
 
-  background-position:center;
-  background-size:cover;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  gap:50px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
   margin-top: 50px;
   border-radius: 16px;
 }
@@ -306,93 +307,93 @@ nav span {
   width: 45%;
   margin: 0 auto;
 }
-.discounts-txt h2{
-  text-align:center;
+.discounts-txt h2 {
+  text-align: center;
 }
-.discouonts-cards{
-  
-  position: relative; 
+.discouonts-cards {
+  position: relative;
 }
-.discouonts-cards img{
+.discouonts-cards img {
   width: 100%;
-  
+
   /* height:max-content; */
   margin: 20px auto;
 }
-.dicounts-information-container{
+.dicounts-information-container {
   border-radius: 16px;
-border: 2px solid #FFF;
-background: rgba(255, 255, 255, 0.80);
-backdrop-filter: blur(2.5px);
-position: absolute;
-top:10%;
- left: 40%;
-width: 55%;
-height: 350px;
-padding: 50px ;
-
-}
-.discounts-schedule-container,.discounts-capacity,.discounts-schedule,.discounts-location{
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 5px;
-}
-.discounts-schedule-title{
-  color: #131318;
-font-size: 1.5rem;
-font-weight: 800;
-margin: 20px 0;
-}
-.discounts-price{
-  color: #FF5400;
-font-size: 1.25rem;
-font-weight: 800;
-margin: 20px 0;
-}
-#discount-left-txt{
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
   position: absolute;
-  top:10%;
+  top: 10%;
+  left: 40%;
+  width: 55%;
+  height: 350px;
+  padding: 50px;
+}
+.discounts-schedule-container,
+.discounts-capacity,
+.discounts-schedule,
+.discounts-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.discounts-schedule-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 20px 0;
+}
+.discounts-price {
+  color: #ff5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 20px 0;
+}
+#discount-left-txt {
+  position: absolute;
+  top: 10%;
   left: 10%;
-width: 55%;
-height: 350px;
-padding: 50px ;
+  width: 55%;
+  height: 350px;
+  padding: 50px;
 }
 
 /* perfect section starts here  */
-.perfect{
+.perfect {
   display: flex;
   justify-content: space-between;
-  gap:30px;
+  gap: 30px;
   margin: 100px 0;
 }
-.perfect-txt{
-width: 48%;
+.perfect-txt {
+  width: 48%;
 }
-.perfect-txt ul li{
+.perfect-txt ul li {
   line-height: 2rem;
   margin-left: 1rem;
 }
-.perfect-details{
-margin: 25px 0;
+.perfect-details {
+  margin: 25px 0;
 }
-.perfect-vdo{
+.perfect-vdo {
   position: relative;
   width: 48%;
-  
 }
-.perfect-vdo video{
+.perfect-vdo video {
   border-radius: 16px;
 }
-.perfect-vdo h2{
-  position:absolute;
+.perfect-vdo h2 {
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 1.5rem;
 }
-#video{
+#video {
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -401,6 +402,53 @@ margin: 25px 0;
   border-radius: 16px;
   border: 1px solid;
 }
-.perfect-button{
+.perfect-button {
   margin-top: 50px;
 }
+
+/* newsletter section styles starts here  */
+.news-letter-container {
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-txt {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  width: 40%;
+}
+.newsletter-txt hr{
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  height: 2px;
+}
+#newsltr-name, #newsltr-mail{
+  padding: 16px 0px 16px 20px;
+  color: rgba(19, 19, 24, 0.30);
+font-size: 1rem;
+font-weight: 400;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+text-wrap: nowrap;
+}
+.newsletter-pic{
+  position: relative;
+  width: 55%;
+  
+}
+.newsletter-pic img{
+  width: 100%;
+  height: 400px;
+}
+.newltr-overflow{
+  position: absolute;
+  bottom: 100px;
+  left: 60%;
+  text-align: center;
+  transform: rotate(-25deg);
+}
+
