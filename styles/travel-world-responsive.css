@@ -7,7 +7,7 @@
 
 /* for medium screen responsive  */
 @media screen and (min-width: 576px) and (max-width: 1079px) {
-  body {
+  header,main {
     width: 90%;
   }
   .nav-menu {
@@ -33,7 +33,7 @@
 /* for small devices  */
 
 @media screen and (max-width: 575px) {
-  body {
+  header, main {
     width: 90%;
   }
 
@@ -235,5 +235,11 @@ border-radius:8px;
   }
   .newsletter-pic{
     width: 100%;
+  }
+  footer{
+    gap: 0;
+  }
+  footer hr{
+    margin: 20px auto;
   }
 }
