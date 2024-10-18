@@ -163,6 +163,7 @@ border-radius:8px;
     height: 500px;
     margin: 20px auto;
     object-fit: cover;
+    border-radius: 8px;
   }
   .dicounts-information-container{
     border-radius: 16px;
@@ -171,17 +172,12 @@ border-radius:8px;
   backdrop-filter: blur(2.5px);
   position: absolute;
   min-width: 300px;
-  top: 100px;
-  left: 40px;
+  top: 150px;
+  left: 20px;
   width: 50%;
   padding: 10px;
 
-  /*  */
-  /* top:10%;
- left: 40%;
-width: 55%;
-height: 350px;
-padding: 50px ; */
+ 
   
   }
   .discounts-schedule-container,.discounts-capacity,.discounts-schedule,.discounts-location{
@@ -204,8 +200,8 @@ padding: 50px ; */
   }
   #discount-left-txt{
     position: absolute;
-    top: 100px;
-    left: 40px;
+    top: 150px;
+    left: 20px;
     width: 50%;
     padding: 10px;
   }
@@ -215,6 +211,7 @@ padding: 50px ; */
   .perfect{
     flex-direction: column;
     margin: 5px;
+    margin-top: 50px;
   }
   .perfect-txt{
     width: 100%;
@@ -224,5 +221,19 @@ padding: 50px ; */
   }
   #video{
     position: relative;
+  }
+  .perfect br{
+    display: none;
+  }
+  .news-letter-container{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .newsletter-txt{
+    width: 100%;
+  }
+  .newsletter-pic{
+    width: 100%;
   }
 }
