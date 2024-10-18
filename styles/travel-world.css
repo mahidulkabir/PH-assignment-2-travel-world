@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
-body {
+header, main {
   width: 80%;
   max-width: 1440px;
   margin: 0 auto;
@@ -42,6 +42,11 @@ body {
   color: #131318;
   font-size: 2.5rem;
   font-weight: 800;
+}
+.common-hr{
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  height: 2px;
 }
 
 /* header section styles  */
@@ -408,6 +413,7 @@ nav span {
 .news-letter-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom:100px ;
 }
 .newsletter-txt {
   border-radius: 16px;
@@ -418,11 +424,7 @@ nav span {
   gap:20px;
   width: 40%;
 }
-.newsletter-txt hr{
-  background: rgba(19, 19, 24, 0.05);
-  border: none;
-  height: 2px;
-}
+
 #newsltr-name, #newsltr-mail{
   padding: 16px 0px 16px 20px;
   color: rgba(19, 19, 24, 0.30);
@@ -449,4 +451,26 @@ text-wrap: nowrap;
   text-align: center;
   transform: rotate(-25deg);
 }
-
+/* footer section styles starts here  */
+footer{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  text-align: center;
+  gap: 30px;
+background: rgba(19, 19, 24, 0.05);
+}
+footer hr{
+  width: 50%;
+  margin: 50px auto;
+}
+.footer-logo{
+  margin-top: 30px;
+}
+.footer-logo i{
+  width: 50px;
+}
+.footer-txt img{
+  width: 300px;
+  margin-bottom: 20px;
+}
